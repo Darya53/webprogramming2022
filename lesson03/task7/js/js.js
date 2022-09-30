@@ -10,7 +10,12 @@ function clk(){
     if (act.value == '-'){
         res = n1-n2;
     }
-
+    if (act.value == '*'){
+        res = n1*n2;
+    }
+    if (act.value == '/'){
+        res = n1/n2;
+    }
 
     result.innerHTML= res;
 }
