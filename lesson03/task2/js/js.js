@@ -2,5 +2,5 @@
 btn.addEventListener("click",clk);
 
 function clk(){
-    alert("Hello Word");
+    alert("Hello Dasha");
 }s
